@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    }
+
+/* Estilos gerais */
+body {
+  font-family: Poppins;
+  background-color: rgb(255, 255, 255);
+  color: #000000
+
+  #icon {
+
+    width: 90px;
+}
+
+.tópicos {
+
+
+font-family: 'Poppins', sans-serif;
+margin-top: -10px;
+position:absolute
+
+}
+
+
+.card-sombra {
+    width: 1863px;              /* largura do card */
+    height: 130px;             /* altura */
+    background: #2b2b2b;       /* fundo preto acinzentado */ 
+    top: -30px;      /* cantos arredondados */
+    position: relative;
+
+    /* sombra superior clara */
+    box-shadow: 
+    0px -10px 20px rgba(255, 255, 255, 0.25),  /* brilho superior menor */
+    0px 12px 22px rgba(0, 0, 0, 0.6);          /* sombra inferior menor */
+
+}
+
+
+.logo-2 {
+
+    width: 150px;
+    mar
+
+
+
+}
