@@ -1,17 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 /* Estilos gerais */
 body {
-  font-family: Poppins, sans-serif;
-  background-color: rgb(255, 255, 255);
-  color: #000000;
+    font-family: Poppins, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
 }
 
-/* CONTAINER DO NAV */
+/* NAV */
 .nav-container {
     width: 100%;
 }
@@ -21,24 +21,22 @@ body {
     width: 100%;
     height: 150px;
     background: #2b2b2b;
-    position: relative;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 25px 60px;
 
     box-shadow: 
-        0px -10px 20px rgba(255, 255, 255, 0.25),
-        0px 12px 22px rgba(0, 0, 0, 0.6);
+        0px -10px 20px rgba(255,255,255,0.25),
+        0px 12px 22px rgba(0,0,0,0.6);
 }
 
 /* LOGO */
 .logo-2 {
-    width: 150px;
+    width: 230px;
 }
 
-/* LINKS DO MENU */
+/* MENU */
 .topicos {
     display: flex;
     gap: 40px;
@@ -46,28 +44,155 @@ body {
 
 .topicos a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
     font-weight: 500;
 }
 
 .topicos a:hover {
-    color: #00ff9d;
+    color: #0f94519c;
     transition: .2s;
+    transform: translateY(-5px); 
+    transition: 0.5s ease;
+
 }
 
-/* RESTANTE DO SEU LAYOUT */
+/* IMAGEM FUNDO VERDE */
 .fundo-verde {
     width: 100%;
+    height: 880px;
+    display: block;
 }
 
+/* TÍTULO */
 .titulo {
-    font-size: 70px;
-    margin-top: 40px;
+    font-size: 115px;
     font-weight: 600;
+    position: relative;
+    margin-top: -750px; /* SOBRE O FUNDO VERDE */
+    margin-left: 80px;
+    margin-bottom: 20px;
+    right: -160px;
+    color: #ffffff;
+    font-family: 'Aclonica', sans-serif;
+     line-height: 1.3; 
+
 }
 
-.plumbob {
-    width: 180px;
-    margin-top: 30px;
+/* TEXTO */
+.texto1 {
+    font-size: 27px;
+    margin-left: 80px;
+    margin-top: 10px;
+    line-height: 30px;
+    right: -160px;
+    position: relative;
+    color: #ffffff;
 }
+
+/* PLUMBOB */
+.plumbob {
+    width: 290px;
+    margin-left: 80px;
+    top: -620px;
+    right: -1200px;
+    position: relative;
+}
+
+.h2 {
+
+    font-family: 'Poppins';
+    font-size: 65px;
+    line-height: 0.9;
+    text-align: center; 
+    top: -267px;
+    position: relative;
+
+}
+
+.texto-container {
+    width: 95%;       /* largura do bloco centralizado */
+    margin: 0 auto;   /* centraliza o container */
+}
+
+.p-1h {
+    width: 100%;      /* ocupam toda a largura do container */
+    margin: 0;        /* sem deslocamento individual */
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    position: relative;
+    top: -140px;
+}
+
+.p-2h {
+
+    width: 100%;      /* ocupam toda a largura do container */
+    margin: 0;        /* sem deslocamento individual */
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    position: relative;
+    top: -130px;
+
+}
+
+.img-sims {
+
+    width: 500px;
+    right: -1300px;
+    position: relative;
+    top: -450px;
+
+
+}
+
+.p-3h {
+
+    width: 100%;      /* ocupam toda a largura do container */
+    margin: 0;        /* sem deslocamento individual */
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    position: relative;
+    top: 380px;
+
+}
+
+.frase-card {
+    background-color: #2e7d32; /* verde parecido com o da imagem */
+    color: white;
+    border-radius: 50px;       /* bordas arredondadas */
+    padding: 60px 50px;        /* mais espaço interno */
+    max-width: 1400px;         /* largura maior do card */
+    margin: 40px auto;          /* centraliza e dá mais espaço vertical */
+    text-align: center;        
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4); /* sombra mais forte */
+    font-family: 'Georgia', serif;
+    position: relative;
+    top: -200px;
+}
+
+
+.frase-card:hover {
+
+   transform: translateY(-15px); 
+    transition: 0.5s ease;
+
+
+
+
+}
+
+.frase-p {
+    font-size: 40px;       /* texto maior */
+    line-height: 1.8;      /* deixa mais espaçado */
+    margin-bottom: 25px;
+    font-family: 'Aclonica', sans-serif;
+}
+
+.frase-autor {
+    font-size: 29px;       /* autor maior também */
+    font-style: italic;
+}
+
