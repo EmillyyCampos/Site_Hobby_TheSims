@@ -11,7 +11,12 @@ body {
     color: #000000;
 }
 
-/* NAV */
+html {
+
+    scroll-behavior: smooth;
+
+}
+
 .nav-container {
     width: 100%;
 }
@@ -99,7 +104,7 @@ body {
     position: relative;
 }
 
-.h2 {
+.titulo-historia {
 
     font-family: 'Poppins';
     font-size: 65px;
@@ -139,11 +144,10 @@ body {
 
 .img-sims {
 
-    width: 500px;
-    right: -1300px;
+    width: 450px;
+    right: -1350px;
     position: relative;
     top: -540px;
-
 
 }
 
@@ -179,9 +183,6 @@ body {
    transform: translateY(-15px); 
     transition: 0.5s ease;
 
-
-
-
 }
 
 .frase-p {
@@ -196,3 +197,133 @@ body {
     font-style: italic;
 }
 
+/* EVOLUCAO */
+
+.titulo-evolucao {
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    margin: 40px auto 30px auto; /* <<< Sobe e centraliza */
+    padding-bottom: 20px;
+
+    position: relative;
+    top: -330px; /* garante que nada atrapalhe */
+    width: fit-content; /* deixa o sublinhado do tamanho do texto (igual ao print) */
+}
+
+.linha-separadora {
+    width: 100%;
+    height: 4px;
+    background: #0f9451;
+    margin: 0 auto 40px auto;
+    position: relative;
+    top: -329px;
+}
+
+
+.jogo-box {
+    width: 90%;
+    margin: -190px auto 40px auto;  /* <<< SOBE O BLOCO */
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+
+/* Coluna esquerda */
+.col-esquerda {
+    text-align: center;
+}
+
+.ano {
+    background: #096e3c;
+    color: white;
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    position: relative;
+    top: -25px;
+    left: -70px;
+}
+
+.capa-jogo {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    position: relative;
+    left: 30px;
+    top: -45px;
+}
+
+.nome-jogo {
+    font-size: 32px;
+    margin-top: -20px;
+    position: relative;
+    right: -10px;
+    font-family: 'Aclonica', sans-serif;
+
+}
+
+.col-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* espaçamento LIMPO entre cada bloco */
+    margin-top: -10px; /* sobe um pouco */
+}
+
+.descricao {
+    font-size: 20px;
+    line-height: 1.7;
+    right: -150px;
+    position: relative;
+    top: -25px;
+}
+
+.caracteristicas-titulo {
+    font-size: 26px;
+    font-weight: 600;
+    color: #0f9451;
+    margin-bottom: -5px; /* aproxima da lista */
+    position: relative;
+    right: -150px;
+
+}
+
+.lista {
+    padding-left: 22px; /* recuo bonito */
+    line-height: 1.6;
+    font-size: 19px;
+    position: relative;
+    left: 150px;
+}
+
+.gameplay-sims1 {
+    width: 480px;
+    border-radius: 15px;
+    top: -25px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    position: relative;
+    right: -1300px;
+}
+
+.interface-sims1 {
+    width: 390px;
+    border-radius: 15px;
+    top: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    position: relative;
+    right: -400px;
+}
+
+
+
+
+body {
+    overflow-x: hidden;
+}
