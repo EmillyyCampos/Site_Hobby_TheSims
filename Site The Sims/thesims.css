@@ -339,7 +339,7 @@ html {
     margin-bottom: 20px;
     font-family: 'Poppins';
     position: relative;
-    top: -305px;
+    top: -330px;
     left: 890px;
 }
 
@@ -349,14 +349,15 @@ html {
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     position: relative;
     left: 550px;
-    top: 260px;
+    top: 240px;
 }
+
 
 .nome-jogo2 {
     font-size: 32px;
     margin-top: -20px;
     position: relative;
-    top: 278px;
+    top: 254px;
     right: -600px;
     font-family: 'Aclonica', sans-serif;
 
@@ -414,6 +415,108 @@ html {
     position: relative;
     left: 100px;
     top: -39px;
+}
+
+.jogo-box {
+    width: 90%;
+    margin: -190px auto 40px auto;  /* <<< SOBE O BLOCO */
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+
+/* Coluna esquerda */
+.col-esquerda3 {
+    text-align: center;
+}
+
+.ano3 {
+    background: #096e3c;
+    color: white;
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    position: relative;
+    top: -380px;
+    left: -495px;
+}
+
+.capa-jogo3 {
+    width: 380px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    position: relative;
+    right: 655px;
+    top: 171px;
+}
+
+.nome-jogo3 {
+    font-size: 32px;
+    top: 144px;
+    position: relative;
+    left: -605px;
+    font-family: 'Aclonica', sans-serif;
+
+}
+
+.col-direita3 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* espaçamento LIMPO entre cada bloco */
+    margin-top: -10px; /* sobe um pouco */
+}
+
+.descricao3 {
+    font-size: 20px;
+    line-height: 1.7;
+    right: -650px;
+    position: relative;
+    top: -493px;
+}
+
+.caracteristicas-titulo3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #0f9451;
+    margin-bottom: -5px; /* aproxima da lista */
+    position: relative;
+     right: -650px;
+     top: -460px;
+
+}
+
+.lista3 {
+    padding-left: 22px; /* recuo bonito */
+    line-height: 1.6;
+    font-size: 19px;
+    position: relative;
+    left: 650px;
+    top: -440px;
+}
+
+.gameplay-sims3 {
+    width: 550px;
+    border-radius: 15px;
+    top: -420px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    position: relative;
+    right: -1240px;
+}
+
+.interface-sims3 {
+    width: 420px;
+    height: 280px;
+    border-radius: 15px;
+    top: -310px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    position: relative;
+    right: -230px;
 }
 
 
