@@ -210,7 +210,7 @@ html {
     padding-bottom: 20px;
 
     position: relative;
-    top: -330px; /* garante que nada atrapalhe */
+    top: -310px; /* garante que nada atrapalhe */
     width: fit-content; /* deixa o sublinhado do tamanho do texto (igual ao print) */
 }
 
@@ -458,7 +458,7 @@ html {
 
 .nome-jogo3 {
     font-size: 32px;
-    top: 144px;
+    top: 160px;
     position: relative;
     left: -605px;
     font-family: 'Aclonica', sans-serif;
