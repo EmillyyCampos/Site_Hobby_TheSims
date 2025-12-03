@@ -17,6 +17,11 @@ html {
 
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .nav-container {
     width: 100%;
 }
@@ -323,6 +328,19 @@ html {
     right: -400px;
 }
 
+.linha-dupla-gradiente {
+    width: 100%;
+    height: 20px; /* ficou mais grossa */
+    background:
+        linear-gradient(to right, #7CFF7E, #0E7A1C) 0% 0% / 100% 6px no-repeat,
+        linear-gradient(to right, #7CFF7E, #0E7A1C) 0% 100% / 100% 6px no-repeat;
+    margin: 40px 0;
+    top: 125px;
+    position: relative;
+}
+
+
+
 /* Coluna esquerda */
 .col-esquerda2 {
     text-align: center;
@@ -426,6 +444,18 @@ html {
     align-items: flex-start;
 }
 
+.linha-dupla-gradiente2 {
+    width: 100%;
+    height: 20px; /* ficou mais grossa */
+    background:
+        linear-gradient(to right, #7CFF7E, #0E7A1C) 0% 0% / 100% 6px no-repeat,
+        linear-gradient(to right, #7CFF7E, #0E7A1C) 0% 100% / 100% 6px no-repeat;
+    margin: 40px 0;
+    top: 45px;
+    position: relative;
+}
+
+
 
 /* Coluna esquerda */
 .col-esquerda3 {
@@ -518,6 +548,294 @@ html {
     position: relative;
     right: -230px;
 }
+
+.linha-dupla-gradiente3 {
+    width: 100%;
+    height: 20px; /* ficou mais grossa */
+    background:
+        linear-gradient(to right, #7CFF7E, #0E7A1C) 0% 0% / 100% 6px no-repeat,
+        linear-gradient(to right, #7CFF7E, #0E7A1C) 0% 100% / 100% 6px no-repeat;
+    margin: 40px 0;
+    top: -230px;
+    position: relative;
+}
+
+
+.col-esquerda4 {
+    text-align: center;
+}
+
+.ano4 {
+    background: #096e3c;
+    color: white;
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    position: relative;
+    top: -680px;
+    left: 890px;
+}
+
+.capa-jogo4 {
+    width: 380px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    position: relative;
+    left: 550px;
+    top: -126px;
+}
+
+
+.nome-jogo4 {
+    font-size: 32px;
+    margin-top: -20px;
+    position: relative;
+    top: -115px;
+    right: -600px;
+    font-family: 'Aclonica', sans-serif;
+
+}
+
+.col-direita4 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* espaçamento LIMPO entre cada bloco */
+    margin-top: -10px; /* sobe um pouco */
+}
+
+.descricao4 {
+    font-size: 20px;
+    line-height: 1.7;
+    left: 200px;
+    position: relative;
+    top: -730px;
+}
+
+.caracteristicas-titulo4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #0f9451;
+    margin-bottom: -5px; /* aproxima da lista */
+    position: relative;
+    top: -693px;
+    left: 200px;
+
+}
+
+.lista4 {
+    padding-left: 22px; /* recuo bonito */
+    line-height: 1.6;
+    font-size: 19px;
+    position: relative;
+    left: 200px;
+    top: -683px;
+}
+
+.gameplay-sims4 {
+    width: 550px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    position: relative;
+    left: 78px;
+    top: -563px;
+}
+
+.interface-sims4 {
+    width: 445px;
+    border-radius: 15px;
+    margin-top: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    position: relative;
+    left: 100px;
+    top: -446px;
+}
+
+.linha-dupla-gradiente4 {
+    width: 100%;
+    height: 20px; /* ficou mais grossa */
+    background:
+        linear-gradient(to right, #7CFF7E, #0E7A1C) 0% 0% / 100% 6px no-repeat,
+        linear-gradient(to right, #7CFF7E, #0E7A1C) 0% 100% / 100% 6px no-repeat;
+    margin: 40px 0;
+    top: -370px;
+    position: relative;
+}
+
+
+.titulo-recursos {
+
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    margin: 40px auto 30px auto; /* <<< Sobe e centraliza */
+    padding-bottom: 20px;
+
+    position: relative;
+    top: -330px; /* garante que nada atrapalhe */
+    width: fit-content; /* deixa o sublinhado do tamanho do texto (igual ao print) */
+
+
+}
+
+.recursos-container {
+    width: 100%;
+    max-width: 1200px; /* limita o tamanho total do grid */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); /* garante que cada card fique no mínimo 330px */
+    gap: 20px; /* mantém os cards próximos */
+    justify-items: center;
+    margin: 40px auto 0 auto; /* centraliza o grid */
+    position: relative;
+}
+
+/* CARDS DE CIMA QUADRADOS */
+.card-recurso {
+    width: 380px;       /* largura fixa */
+    height: 330px;      /* altura igual à largura */
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+    text-align: left;
+    display: flex;           /* para alinhar conteúdo dentro */
+    flex-direction: column;  /* ícone, título e texto na vertical */
+    justify-content: flex-start;
+    position: relative;
+    z-index: 1;
+    top: -290px; /* mantém a posição que você já usava */
+}
+
+
+.card-recurso h3 {
+    color: #1C8C39;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.card-recurso p {
+    font-size: 17px;
+    line-height: 1.55;
+    color: #333;
+}
+
+.icone-recurso {
+    width: 48px;
+    margin-bottom: 10px;
+}
+
+/* --- IMAGEM CENTRAL --- */
+.imagem-central {
+    width: 330px;
+    display: block;
+    margin: -70px auto 0 auto; /* aproxima a imagem do card de baixo */
+    filter: drop-shadow(0 15px 25px rgba(0,0,0,0.3)); /* sombra mais visível */
+    position: relative;
+    z-index: 2; /* fica acima do card de baixo */
+    position: relative;
+    top: -270px;
+}
+
+/* --- CARD DE BAIXO (CARREIRAS) --- */
+.baixo {
+    grid-column: 2 / 3;
+    margin-top: -60px; /* card sobe para a sombra da criança ficar sobre ele */
+    z-index: 1;
+}
+
+/* --- CONTAINER CARDS INFERIORES --- */
+.recursos-container-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* cards mais próximos */
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+/* --- CARD PADRÃO 2 --- */
+.card-recurso2 {
+    width: 330px;
+    height: 330px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* --- CONTAINER 2 (cards lado a lado) --- */
+.recursos-container-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px; /* <<< ESPAÇO ENTRE OS CARDS */
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+/* --- CARD PADRÃO 2 (tamanho fixo) --- */
+.card-recurso2 {
+    width: 395px;
+    height: 330px; /* tamanho fixo */
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+     top: -220px;
+}
+
+/* Ícone */
+.icone-recurso2 {
+    width: 48px;
+    margin-bottom: 12px;
+}
+
+/* Título */
+.card-recurso2 h3 {
+    color: #1C8C39;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+/* Texto */
+.card-recurso2 p {
+    font-size: 17px;
+    line-height: 1.55;
+    color: #333;
+}
+
+/* --- ANIMAÇÃO LEVE PARA TODOS OS CARDS DOS DOIS CONTAINERS --- */
+.card-recurso,
+.card-recurso2,
+.baixo {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* --- HOVER (MOVIMENTO FLUIDO) --- */
+.card-recurso:hover,
+.card-recurso2:hover,
+.baixo:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.22);
+}
+
 
 
 
