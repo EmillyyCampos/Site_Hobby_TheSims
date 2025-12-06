@@ -845,10 +845,19 @@ img {
     padding-bottom: 20px;
 
     position: relative;
-    top: -210px; /* garante que nada atrapalhe */
+    top: -180px; /* garante que nada atrapalhe */
     width: fit-content; /* deixa o sublinhado do tamanho do texto (igual ao print) */
 
 
+}
+
+.linha-separadora2 {
+    width: 100%;
+    height: 4px;
+    background: #0f9451;
+    margin: 0 auto 40px auto;
+    position: relative;
+    top: -200px;
 }
 
 
