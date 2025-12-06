@@ -677,7 +677,7 @@ img {
     padding-bottom: 20px;
 
     position: relative;
-    top: -330px; /* garante que nada atrapalhe */
+    top: -355px; /* garante que nada atrapalhe */
     width: fit-content; /* deixa o sublinhado do tamanho do texto (igual ao print) */
 
 
@@ -694,7 +694,7 @@ img {
     position: relative;
 }
 
-/* CARDS DE CIMA QUADRADOS */
+
 .card-recurso {
     width: 380px;       /* largura fixa */
     height: 330px;      /* altura igual à largura */
@@ -729,7 +729,7 @@ img {
     margin-bottom: 10px;
 }
 
-/* --- IMAGEM CENTRAL --- */
+
 .imagem-central {
     width: 330px;
     display: block;
@@ -741,14 +741,14 @@ img {
     top: -270px;
 }
 
-/* --- CARD DE BAIXO (CARREIRAS) --- */
+
 .baixo {
     grid-column: 2 / 3;
     margin-top: -60px; /* card sobe para a sombra da criança ficar sobre ele */
     z-index: 1;
 }
 
-/* --- CONTAINER CARDS INFERIORES --- */
+
 .recursos-container-2 {
     width: 100%;
     display: flex;
@@ -758,7 +758,7 @@ img {
     margin-bottom: 60px;
 }
 
-/* --- CARD PADRÃO 2 --- */
+
 .card-recurso2 {
     width: 330px;
     height: 330px;
@@ -773,7 +773,7 @@ img {
     justify-content: flex-start;
 }
 
-/* --- CONTAINER 2 (cards lado a lado) --- */
+
 .recursos-container-2 {
     width: 100%;
     display: flex;
@@ -784,7 +784,7 @@ img {
     margin-bottom: 60px;
 }
 
-/* --- CARD PADRÃO 2 (tamanho fixo) --- */
+
 .card-recurso2 {
     width: 395px;
     height: 330px; /* tamanho fixo */
@@ -798,30 +798,29 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     position: relative;
-     top: -220px;
+     top: -250px;
 }
 
-/* Ícone */
+
 .icone-recurso2 {
     width: 48px;
     margin-bottom: 12px;
 }
 
-/* Título */
+
 .card-recurso2 h3 {
     color: #1C8C39;
     font-size: 24px;
     margin-bottom: 12px;
 }
 
-/* Texto */
+
 .card-recurso2 p {
     font-size: 17px;
     line-height: 1.55;
     color: #333;
 }
 
-/* --- ANIMAÇÃO LEVE PARA TODOS OS CARDS DOS DOIS CONTAINERS --- */
 .card-recurso,
 .card-recurso2,
 .baixo {
@@ -836,6 +835,208 @@ img {
     box-shadow: 0 14px 30px rgba(0,0,0,0.22);
 }
 
+.titulo-personagens {
+
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+    margin: 40px auto 30px auto; /* <<< Sobe e centraliza */
+    padding-bottom: 20px;
+
+    position: relative;
+    top: -210px; /* garante que nada atrapalhe */
+    width: fit-content; /* deixa o sublinhado do tamanho do texto (igual ao print) */
+
+
+}
+
+
+
+.descricaoperso {
+
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -210px;
+
+}
+
+
+.container-personagens {
+    width: 100%;          /* tamanho fixo horizontal */
+    height: 300px; 
+    max-width: 1300px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    position: relative;
+    margin: -120px auto 60px auto;
+    
+    
+}
+
+.card-personagem {
+    width: 330px;
+    height: 500px; /* <<< TAMANHO FIXO IGUAL PARA OS DOIS */
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+    overflow: hidden;
+
+
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-personagem img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card-personagem h3 {
+    font-size: 22px;
+    color: #1C8C39;
+    margin-bottom: 12px;
+}
+
+.card-personagem p {
+    font-size: 17px;
+    line-height: 1.55;
+    color: #333;
+}
+
+.card-personagem:hover {
+
+     transform: translateY(-6px);
+    box-shadow: 0 15px 38px rgba(0,0,0,0.22);
+
+}
+
+
+
+
+.imagem-central2 {
+    width: 360px;
+    display: block;
+    filter: drop-shadow(0 18px 30px rgba(0,0,0,0.3));
+    position: relative;
+    top: 69px;
+}
+
+
+
+.container-personagens-2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 70px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 160px;
+    position: relative;
+    top: 300px;
+}
+
+.card-personagem-2 {
+    width: 440px;                     /* TAMANHO FIXO */
+    height: 380px;                /* mantém igual mesmo com textos diferentes */
+    background: #ffffff;
+    padding: 30px 28px;
+    border-radius: 18px;
+    text-align: left;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+/* img redonda */
+.card-personagem-2 img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* titulo verde */
+.card-personagem-2 h3 {
+    font-size: 23px;
+    color: #1C8C39;
+    margin-bottom: 10px;
+}
+
+/* texto */
+.card-personagem-2 p {
+    font-size: 17px;
+    line-height: 1.55;
+    color: #333;
+}
+
+
+
+.container-personagens-3 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto 120px auto;  /* espaço entre os containers */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 160px;
+    position: relative;
+    top: 300px;
+}
+
+.card-personagem-3 {
+    width: 440px;                  
+    height: 380px;             /* igual ao de cima */
+    background: #ffffff;
+    padding: 30px 28px;
+    border-radius: 18px;
+    text-align: left;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+/* img redonda */
+.card-personagem-3 img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* titulo verde */
+.card-personagem-3 h3 {
+    font-size: 23px;
+    color: #1C8C39;
+    margin-bottom: 10px;
+}
+
+/* texto */
+.card-personagem-3 p {
+    font-size: 17px;
+    line-height: 1.55;
+    color: #333;
+}
+
+.card-personagem-2,
+.card-personagem-3 {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-personagem-2:hover,
+.card-personagem-3:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 38px rgba(0,0,0,0.22);
+}
 
 
 
